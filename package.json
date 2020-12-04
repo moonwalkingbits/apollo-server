@@ -1,0 +1,51 @@
+{
+    "name": "@moonwalkingbits/apollo-server",
+    "version": "0.1.0",
+    "description": "An extensible HTTP server.",
+    "author": "Martin Pettersson <martin@moonwalkingbits.com>",
+    "license": "MIT",
+    "keywords": [
+        "apollo",
+        "server"
+    ],
+    "homepage": "https://github.com/moonwalkingbits/apollo-server#readme",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/moonwalkingbits/apollo-server.git"
+    },
+    "bugs": {
+        "url": "https://github.com/moonwalkingbits/apollo-server/issues"
+    },
+    "type": "module",
+    "exports": {
+        ".": "./index.js"
+    },
+    "types": "index.d.ts",
+    "files": [
+        "index.js",
+        "index.d.ts",
+        "lib/"
+    ],
+    "scripts": {
+        "test": "mocha",
+        "test:cover": "c8 npm test",
+        "test:typescript": "tsd"
+    },
+    "engines": {
+        "node": ">=14.5"
+    },
+    "devDependencies": {
+        "@types/node": "~14.14",
+        "c8": "~7.3",
+        "chai": "~4.2",
+        "mocha": "~8.2",
+        "sinon": "~9.2",
+        "tsd": "~0.13"
+    },
+    "dependencies": {
+        "@moonwalkingbits/apollo-configuration": "~0.1",
+        "@moonwalkingbits/apollo-container": "~0.1",
+        "@moonwalkingbits/apollo-http": "~0.1",
+        "@moonwalkingbits/apollo-log": "~0.1"
+    }
+}
