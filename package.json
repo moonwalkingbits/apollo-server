@@ -45,7 +45,7 @@
     "dependencies": {
         "@moonwalkingbits/apollo-configuration": "~0.1",
         "@moonwalkingbits/apollo-container": "~0.1",
-        "@moonwalkingbits/apollo-http": "~0.1",
+        "@moonwalkingbits/apollo-http": "~0.2",
         "@moonwalkingbits/apollo-log": "~0.1"
     }
 }
